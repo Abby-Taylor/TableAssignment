@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latte Art Hall of Fame</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<br>
+<body>
+    <div class="container">
+      <div class="col-sm border">
+        <h2 class="text-center">Latte Art Hall of Fame</h2>
+        <p class="text-center">Our baristas and customers compete to see who can make the quickest latte in the Midwest.</p>
+        <p class="text-center">Requirements: Must be timed and video recorded. Must be a hot, flavored latte. <br>
+            You will be contacted for verification before we can add you to the Hall of Fame.
+        </p> 
+      </div>        
+        <table id ="latte-table" class="table table-bordered table-striped table-hover">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Latte Type</th>
+              <th>Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Abby Taylor</td>
+              <td>Vanilla Latte</td>
+              <td>1:01</td>
+
+            </tr>
+            <tr>
+              <td>Mocha Matt</td>
+              <td>Caramel Latte</td>
+              <td>1:09</td>
+            </tr>
+            <tr>
+              <td>Cappuccino Callie</td>
+              <td>Vanilla Latte</td>
+              <td>1:10</td>
+            </tr>
+          </tbody>
+        </table>
+        <div>
+          <form>
+            <div class="form-row">
+              <div class="col-sm">
+                <input type="text" class="form-control" placeholder="Name" id="name">
+              </div>
+              <div class="col-sm">
+                <input type="text" class="form-control" placeholder="Latte Type" id="latte-type">
+              </div>
+              <div class="col-sm">
+                <input type="text" class="form-control" placeholder="Time in 0:00 Format" id="time">
+              </div class ="col-sm">
+              <button type="button" class="btn btn-primary" id="add">Submit My Time!</button>
+            </div>
+          </form>
+        </div>
+      </div> 
+    
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
